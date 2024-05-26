@@ -34,7 +34,7 @@ class Load extends Phaser.Scene {
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
 
         // Load the audio assets
-        this.load.setPath("./assets/audio/");
+        // this.load.setPath("./assets/audio/");
         this.load.audio("damageSound", "roblox-death-sound_1.mp3");
         this.load.audio("coinBox", "coinbox.mp3");
         this.load.audio("coinCollect", "coinpickup.mp3");
